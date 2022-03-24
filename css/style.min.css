@@ -310,9 +310,13 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  overflow-x: scroll;
 }
 
+@media screen and (max-width: 900px) {
+  .block-products__wrapp {
+    overflow-x: scroll;
+  }
+}
 @media screen and (max-width: 800px) {
   .block-products__header {
     flex-direction: column;
