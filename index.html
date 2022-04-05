@@ -5,12 +5,14 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="files/css/jquery-ui.min.css">
 	<link rel="stylesheet" href="css/style.min.css">
 	<title>Главная</title>
 </head>
 
-<body>
-	<header class="header">
+<body class="home-page">
+	<div class="wrapper">
+		<header class="header">
 	<div class="header-top">
 		<div class="container">
 			<div class="header-top__content">
@@ -454,123 +456,156 @@
 </div>
 </header>
 
-	<section class="home-main">
-		<div class="container">
-			<div class="home-main__content">
-				<div class="home-main__offer">
-					<img src="img/home/company.svg" alt="Paulownia.pro">
-					<h1 class="home-main__title">
-						Начните ваш агробизнеc с нами
-					</h1>
-					<div class="home-main__links block-button-links">
-						<a href="#" class="block-button-links__link btn">
-							Древесина
-						</a>
-						<a href="#" class="block-button-links__link btn">
-							Промышленная павловния
-						</a>
-						<a href="#" class="block-button-links__link btn">
-							Озеленение
-						</a>
-					</div>
-				</div>
-				<div class="home-main__add">
-					<div class="home-main__sale">
-						<a href="#" class="block-button-links__link btn btn_fill">
-							Продать плантацию
-						</a>
-					</div>
-					<div class="home-main__contacts">
-						<p>
-							Выберете способ
-							для связи:
-						</p>
-						<div class="home-main__contacts-links">
-							<a href="#" class="home-main__contacts-link">
-								<svg class="svg">
-									<use xlink:href="img/icons/icons.svg#home-viber"></use>
-								</svg>
-								<span>
-									Viber
-								</span>
-							</a>
-							<a href="#" class="home-main__contacts-link">
-								<svg class="svg">
-									<use xlink:href="img/icons/icons.svg#home-telegram"></use>
-								</svg>
-								<span>
-									Telegram
-								</span>
-							</a>
-							<a href="#" class="home-main__contacts-link">
-								<svg class="svg">
-									<use xlink:href="img/icons/icons.svg#home-viber"></use>
-								</svg>
-								<span>
-									WhatsApp
-								</span>
-							</a>
-							<a href="#" class="home-main__contacts-link home-main__contacts-link_without-text">
-								<svg class="svg">
-									<use xlink:href="img/icons/icons.svg#home-phone"></use>
-								</svg>
-							</a>
+		<main class="main">
+			<section class="home-main">
+				<div class="container">
+					<div class="home-main__content">
+						<div class="home-main__offer">
+							<img src="img/home/company.svg" alt="Paulownia.pro">
+							<h1 class="home-main__title">
+								Начните ваш агробизнеc с нами
+							</h1>
+							<div class="home-main__links block-button-links">
+								<a href="#" class="block-button-links__link btn">
+									Древесина
+								</a>
+								<a href="#" class="block-button-links__link btn">
+									Промышленная павловния
+								</a>
+								<a href="#" class="block-button-links__link btn">
+									Озеленение
+								</a>
+							</div>
 						</div>
-						<a href="#" class="home-main__contacts-button btn btn_fill">
-							Написать на почту
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="home-banners">
-		<div class="container">
-			<div class="home-banners__wrapp">
-				<div class="home-banners__content">
-					<div class="home-banners__info">
-						<h3 class="home-banners__title">
-							Pawlownia.pro
-						</h3>
-						<p class="home-banners__text">
-							Лидеры в производстве популярных сортов Павловнии
-						</p>
-					</div>
-					<div class="home-banners__arrows">
-						<div class="home-banners__arrow home-banners__arrow_left">
-							<svg class="svg">
-								<use xlink:href="img/icons/icons.svg#arrow2"></use>
-							</svg>
-						</div>
-						<div class="home-banners__arrow home-banners__arrow_right">
-							<svg class="svg">
-								<use xlink:href="img/icons/icons.svg#arrow2"></use>
-							</svg>
+						<div class="home-main__add">
+							<div class="home-main__sale">
+								<a href="#" class="block-button-links__link btn btn_fill">
+									Продать плантацию
+								</a>
+							</div>
+							<div class="home-main__contacts">
+								<p>
+									Выберете способ
+									для связи:
+								</p>
+								<div class="home-main__contacts-links">
+									<a href="#" class="home-main__contacts-link">
+										<svg class="svg">
+											<use xlink:href="img/icons/icons.svg#home-viber"></use>
+										</svg>
+										<span>
+											Viber
+										</span>
+									</a>
+									<a href="#" class="home-main__contacts-link">
+										<svg class="svg">
+											<use xlink:href="img/icons/icons.svg#home-telegram"></use>
+										</svg>
+										<span>
+											Telegram
+										</span>
+									</a>
+									<a href="#" class="home-main__contacts-link">
+										<svg class="svg">
+											<use xlink:href="img/icons/icons.svg#home-viber"></use>
+										</svg>
+										<span>
+											WhatsApp
+										</span>
+									</a>
+									<a href="#" class="home-main__contacts-link home-main__contacts-link_without-text">
+										<svg class="svg">
+											<use xlink:href="img/icons/icons.svg#home-phone"></use>
+										</svg>
+									</a>
+								</div>
+								<a href="#" class="home-main__contacts-button btn btn_fill">
+									Написать на почту
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="home-banners__bg">
-					<div class="home-banners__img" style="background-image: url(img/home/h-image1.jpg);">
+			</section>
+			<section class="home-banners">
+				<div class="container">
+					<div class="home-banners__wrapp">
+						<div class="home-banners__content">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="home-banners__info">
+										<h3 class="home-banners__title">
+											Pawlownia.pro
+										</h3>
+										<p class="home-banners__text">
+											Лидеры в производстве популярных сортов Павловнии
+										</p>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="home-banners__info">
+										<h3 class="home-banners__title">
+											Pawlownia.pro
+										</h3>
+										<p class="home-banners__text">
+											Еще какой-то некоторый текст, короткий или длинный eще какой-то некоторый
+											текст,
+											короткий или длинный eще какой-то некоторый текст, короткий или длинный
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="home-banners__arrows slider-arrows">
+								<div
+									class="home-banners__arrow home-banners__arrow_left slider-arrows__arrow slider-arrows__arrow_left">
+									<svg class="svg">
+										<use xlink:href="img/icons/icons.svg#arrow2"></use>
+									</svg>
+								</div>
+								<div
+									class="home-banners__arrow home-banners__arrow_right slider-arrows__arrow slider-arrows__arrow_right">
+									<svg class="svg">
+										<use xlink:href="img/icons/icons.svg#arrow2"></use>
+									</svg>
+								</div>
+							</div>
+						</div>
+						<div class="home-banners__bg">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="home-banners__img"
+										style="background-image: url(img/home/h-image1.jpg);">
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="home-banners__img"
+										style="background-image: url(img/home/h-image2.jpg);">
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-	</section>
-	<section class="block-products">
+			</section>
+			<section class="block-products">
 	<div class="container">
 		<div class="block-products__content">
 			<div class="block-products__header block-products__header_big">
 				<div class="block-products__title">
-					<h2>Саженцы / <span>Древесина</span></h2>
+					<h2 class="h2">
+						Саженцы / <span>Древесина</span>
+					</h2>
 				</div>
 				<div class="block-products__link">
-					<a href="#">
+					<a href="/market.html">
 						В магазин
 					</a>
 				</div>
 			</div>
 			<div class="block-products__wrapp">
-				<div class="product-card">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="product-card">
 	<a href="#" class="product-card__link">
 		<div class="product-card__thumb">
 			<img src="img/blocks/product/product.jpg" alt="">
@@ -642,7 +677,9 @@
 		</button>
 	</div>
 </div>
-				<div class="product-card">
+					</div>
+					<div class="swiper-slide">
+						<div class="product-card">
 	<a href="#" class="product-card__link">
 		<div class="product-card__thumb">
 			<img src="img/blocks/product/product2.jpg" alt="">
@@ -682,7 +719,7 @@
 				</div>
 			</div>
 			<h3 class="product-card__title">
-				Фейхоа Никитская Ароматная -15ºC Pineapple Guava горшок 5л Фейхоа Никитская Ароматная Фейхоа
+				Фейхоа Никитская Ароматная -15ºC Pineapple Guava горшок 5л Фейхоа Никитская
 			</h3>
 			<div class="product-card__stats">
 				<div class="product-card__stat stat">
@@ -714,7 +751,9 @@
 		</button>
 	</div>
 </div>
-				<div class="product-card">
+					</div>
+					<div class="swiper-slide">
+						<div class="product-card">
 	<a href="#" class="product-card__link">
 		<div class="product-card__thumb">
 			<img src="img/blocks/product/product.jpg" alt="">
@@ -786,11 +825,180 @@
 		</button>
 	</div>
 </div>
+					</div>
+					<div class="swiper-slide">
+						<div class="product-card">
+	<a href="#" class="product-card__link">
+		<div class="product-card__thumb">
+			<img src="img/blocks/product/product.jpg" alt="">
+			<div class="product-card__top">
+				<span>
+					<svg class="svg">
+						<use xlink:href="img/icons/icons.svg#star"></use>
+					</svg>
+				</span>
+				<p>
+					TOP
+				</p>
+			</div>
+			<div class="product-card__sale">
+				<span>
+					-40%
+				</span>
+			</div>
+		</div>
+		<div class="product-card__content">
+			<div class="product-card__info">
+				<div class="product-card__price">
+					<span>
+						5.00&nbsp;€/1&nbsp;шт.
+					</span>
+					<span class="product-card__old">
+						8.00&nbsp;€/1&nbsp;шт.
+					</span>
+				</div>
+				<div class="product-card__min">
+					<span>
+						Мин.&nbsp;заказ:
+					</span>
+					<span class="product-card__pcs">
+						24&nbsp;шт.
+					</span>
+				</div>
+			</div>
+			<h3 class="product-card__title">
+				Фейхоа Никитская Ароматная -15ºC Pineapple Guava горшок 5л
+			</h3>
+			<div class="product-card__stats">
+				<div class="product-card__stat stat">
+					Размер <span>1 метр</span>
+				</div>
+				<div class="product-card__stat stat">
+					Возраст <span>3 года</span>
+				</div>
+			</div>
+		</div>
+	</a>
+	<div class="product-card__buttons">
+		<button class="product-card__buy btn">
+			<p>
+				В корзину
+			</p>
+			<span>
+				<svg class="svg">
+					<use xlink:href="img/icons/icons.svg#shopping-bag"></use>
+				</svg>
+			</span>
+		</button>
+		<button class="product-card__favorite">
+			<span>
+				<svg class="svg">
+					<use xlink:href="img/icons/icons.svg#heart"></use>
+				</svg>
+			</span>
+		</button>
+	</div>
+</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="product-card">
+	<a href="#" class="product-card__link">
+		<div class="product-card__thumb">
+			<img src="img/blocks/product/product2.jpg" alt="">
+			<div class="product-card__top">
+				<span>
+					<svg class="svg">
+						<use xlink:href="img/icons/icons.svg#star"></use>
+					</svg>
+				</span>
+				<p>
+					TOP
+				</p>
+			</div>
+			<div class="product-card__sale">
+				<span>
+					-40%
+				</span>
+			</div>
+		</div>
+		<div class="product-card__content">
+			<div class="product-card__info">
+				<div class="product-card__price">
+					<span>
+						5.00&nbsp;€/1&nbsp;шт.
+					</span>
+					<span class="product-card__old">
+						8.00&nbsp;€/1&nbsp;шт.
+					</span>
+				</div>
+				<div class="product-card__min">
+					<span>
+						Мин.&nbsp;заказ:
+					</span>
+					<span class="product-card__pcs">
+						24&nbsp;шт.
+					</span>
+				</div>
+			</div>
+			<h3 class="product-card__title">
+				Фейхоа Никитская Ароматная -15ºC Pineapple Guava горшок 5л
+			</h3>
+			<div class="product-card__stats">
+				<div class="product-card__stat stat">
+					Размер <span>1 метр</span>
+				</div>
+				<div class="product-card__stat stat">
+					Возраст <span>3 года</span>
+				</div>
+			</div>
+		</div>
+	</a>
+	<div class="product-card__buttons">
+		<button class="product-card__buy btn">
+			<p>
+				В корзину
+			</p>
+			<span>
+				<svg class="svg">
+					<use xlink:href="img/icons/icons.svg#shopping-bag"></use>
+				</svg>
+			</span>
+		</button>
+		<button class="product-card__favorite">
+			<span>
+				<svg class="svg">
+					<use xlink:href="img/icons/icons.svg#heart"></use>
+				</svg>
+			</span>
+		</button>
+	</div>
+</div>
+					</div>
+					<div class="swiper-slide">
+						<a href="#" class="block-products__end-card end-card">
+							<div class="end-card__header">
+								<p class="end-card__title">
+									Ещё больше товаров смотрите в магазине
+								</p>
+								<p class="end-card__goto">
+									Перейти в магазин
+								</p>
+							</div>
+							<div class="end-card__footer">
+								<div class="end-card__decor">
+								</div>
+								<div class="end-card__photo">
+									<img src="../../img/blocks/end-card/decor.png">
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
-	<section class="calc-main">
+			<section class="calc-main">
 	<div class="container">
 		<div class="calc-main__content">
 			<div class="calc-main__volume">
@@ -848,15 +1056,44 @@
 						<p class="input-b__title">
 							Сорт павловнии
 						</p>
-						<div class="select">
-	<p class="select__title">
-		Paulownia Ze Pro
-	</p>
-	<span class="select__arrow">
-		<svg class="svg">
-			<use xlink:href="img/icons/icons.svg#arrow3"></use>
-		</svg>
-	</span>
+						<div class="select-box">
+	<div class="select-box__current" tabindex="1">
+		<div class="select-box__value">
+			<input class="select-box__input" type="radio" id="h-sort-0" value="1" name="h-sort" checked="checked" />
+			<p class="select-box__input-text">Paulownia Ze Pro</p>
+		</div>
+		<div class="select-box__value">
+			<input class="select-box__input" type="radio" id="h-sort-1" value="2" name="h-sort" />
+			<p class="select-box__input-text">Пункт 1</p>
+		</div>
+		<div class="select-box__value">
+			<input class="select-box__input" type="radio" id="h-sort-2" value="3" name="h-sort" />
+			<p class="select-box__input-text">Пункт 2</p>
+		</div>
+		<div class="select-box__value">
+			<input class="select-box__input" type="radio" id="h-sort-3" value="4" name="h-sort" />
+			<p class="select-box__input-text">Пункт 3</p>
+		</div>
+		<span class="select-box__icon">
+			<svg class="svg">
+				<use xlink:href="img/icons/icons.svg#arrow3"></use>
+			</svg>
+		</span>
+	</div>
+	<ul class="select-box__list">
+		<li>
+			<label class="select-box__option" for="h-sort-0" aria-hidden="aria-hidden">Paulownia Ze Pro</label>
+		</li>
+		<li>
+			<label class="select-box__option" for="h-sort-1" aria-hidden="aria-hidden">Пункт 1</label>
+		</li>
+		<li>
+			<label class="select-box__option" for="h-sort-2" aria-hidden="aria-hidden">Пункт 2</label>
+		</li>
+		<li>
+			<label class="select-box__option" for="h-sort-3" aria-hidden="aria-hidden">Пункт 3</label>
+		</li>
+	</ul>
 </div>
 					</div>
 				</div>
@@ -865,15 +1102,44 @@
 						<p class="input-b__title">
 							Форма
 						</p>
-						<div class="select">
-	<p class="select__title">
-		5*5
-	</p>
-	<span class="select__arrow">
-		<svg class="svg">
-			<use xlink:href="img/icons/icons.svg#arrow3"></use>
-		</svg>
-	</span>
+						<div class="select-box">
+	<div class="select-box__current" tabindex="1">
+		<div class="select-box__value">
+			<input class="select-box__input" type="radio" id="h-size-0" value="1" name="h-size" checked="checked" />
+			<p class="select-box__input-text">5*5</p>
+		</div>
+		<div class="select-box__value">
+			<input class="select-box__input" type="radio" id="h-size-1" value="2" name="h-size" />
+			<p class="select-box__input-text">Пункт 1</p>
+		</div>
+		<div class="select-box__value">
+			<input class="select-box__input" type="radio" id="h-size-2" value="3" name="h-size" />
+			<p class="select-box__input-text">Пункт 2</p>
+		</div>
+		<div class="select-box__value">
+			<input class="select-box__input" type="radio" id="h-size-3" value="4" name="h-size" />
+			<p class="select-box__input-text">Пункт 3</p>
+		</div>
+		<span class="select-box__icon">
+			<svg class="svg">
+				<use xlink:href="img/icons/icons.svg#arrow3"></use>
+			</svg>
+		</span>
+	</div>
+	<ul class="select-box__list">
+		<li>
+			<label class="select-box__option" for="h-size-0" aria-hidden="aria-hidden">5*5</label>
+		</li>
+		<li>
+			<label class="select-box__option" for="h-size-1" aria-hidden="aria-hidden">Пункт 1</label>
+		</li>
+		<li>
+			<label class="select-box__option" for="h-size-2" aria-hidden="aria-hidden">Пункт 2</label>
+		</li>
+		<li>
+			<label class="select-box__option" for="h-size-3" aria-hidden="aria-hidden">Пункт 3</label>
+		</li>
+	</ul>
 </div>
 					</div>
 				</div>
@@ -906,7 +1172,7 @@
 		</div>
 	</div>
 </section>
-	<section class="sorts">
+			<section class="sorts">
 	<div class="container">
 		<h2 class="sorts__title">
 			Наши сорта
@@ -986,12 +1252,512 @@
 		</div>
 	</div>
 </section>
+			<section class="slider-b">
+				<div class="container">
+					<h2 class="slider-b__title">
+						О павловнии
+					</h2>
+					<div class="slider-b__cards">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="slider-b__card img-wrapper">
+									<img src="img/home/slider-b/img1.jpg" alt="">
+									<p class="slider-b__name">
+										Промышленная
+									</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slider-b__card img-wrapper">
+									<img src="img/home/slider-b/img2.jpg" alt="">
+									<p class="slider-b__name">
+										Плантации
+									</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slider-b__card img-wrapper">
+									<img src="img/home/slider-b/img3.jpg" alt="">
+									<p class="slider-b__name">
+										Древесина
+									</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slider-b__card img-wrapper">
+									<img src="img/home/slider-b/img4.jpg" alt="">
+									<p class="slider-b__name">
+										Для озеленения
+									</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slider-b__card img-wrapper">
+									<img src="img/home/slider-b/img5.jpg" alt="">
+									<p class="slider-b__name">
+										Павловния в саду
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slider-b__content">
+						<div class="slider-b__wrapp">
+							<div class="slider-b__arrows slider-arrows">
+								<div class="slider-arrows__arrow slider-arrows__arrow_left">
+									<svg class="svg">
+										<use xlink:href="img/icons/icons.svg#arrow2"></use>
+									</svg>
+								</div>
+								<div
+									class="slider-b__arrow slider-b__arrow_right slider-arrows__arrow slider-arrows__arrow_right">
+									<svg class="svg">
+										<use xlink:href="img/icons/icons.svg#arrow2"></use>
+									</svg>
+								</div>
+							</div>
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="slider-b__info">
+										<h3 class="slider-b__subtitle">
+											Промышленная
+										</h3>
+										<p class="slider-b__text">
+											Павловния Z07 Pao Tong (SuperHybrid) - это скрещивание 3-х видов Tomentosa,
+											Fortunei, Kawakamii. Самый популярный и
+											любимый в Японии за его быстрый рост и высокое качество древесины. ...
+										</p>
+										<a href="#" class="slider-b__link btn">
+											Подробнее
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="slider-b__info">
+										<h3 class="slider-b__subtitle">
+											Плантации
+										</h3>
+										<p class="slider-b__text">
+											Другой текст Другой текст Другой текст Другой текст Другой текст Другой
+											текст.
+											...
+										</p>
+										<a href="#" class="slider-b__link btn">
+											Подробнее
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="slider-b__info">
+										<h3 class="slider-b__subtitle">
+											Древесина
+										</h3>
+										<p class="slider-b__text">
+											Павловния Z07 Pao Tong (SuperHybrid) - это скрещивание 3-х видов Tomentosa,
+											Fortunei, Kawakamii. Самый популярный и
+											любимый в Японии за его быстрый рост и высокое качество древесины
+											Павловния Z07 Pao Tong (SuperHybrid). ...
+										</p>
+										<a href="#" class="slider-b__link btn">
+											Подробнее
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="slider-b__info">
+										<h3 class="slider-b__subtitle">
+											Для озеленения
+										</h3>
+										<p class="slider-b__text">
+											Павловния Z07 Pao Tong (SuperHybrid) - это скрещивание 3-х видов Tomentosa,
+											Fortunei, Kawakamii. Самый популярный и
+											любимый в Японии за его быстрый рост и высокое качество древесины. ...
+										</p>
+										<a href="#" class="slider-b__link btn">
+											Подробнее
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="slider-b__info">
+										<h3 class="slider-b__subtitle">
+											Павловния в саду
+										</h3>
+										<p class="slider-b__text">
+											Павловния Z07 Pao Tong (SuperHybrid) - это скрещивание 3-х видов Tomentosa,
+											Fortunei, Kawakamii. Самый популярный и
+											любимый в Японии за его быстрый рост и высокое качество древесины. ...
+										</p>
+										<a href="#" class="slider-b__link btn">
+											Подробнее
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="slider-b__lable img-wrapper">
+								<img src="img/blocks/sorts/lable.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="news-row">
+				<div class="container">
+					<div class="news-row__content">
+						<div class="news-row__header @@type">
+							<div class="news-row__title">
+								<h2>
+									Новости
+								</h2>
+							</div>
+							<div class="news-row__link">
+								<a href="#">
+									Все новости
+								</a>
+							</div>
+						</div>
+						<div class="news-row__wrapp">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<a href="#" class="news-card">
+	<div class="news-card__content">
+		<div class="news-card__img img-wrapper">
+			<img src="img/blocks/news/news1.jpg" alt="">
+		</div>
+		<h3 class="news-card__title">
+			Формирование чаши Павловнии Томентоса Формирование чаши Павловнии
+		</h3>
+	</div>
+	<div class="news-card__footer">
+		<div class="news-card__tags">
+			<span class="news-card__tag tag">
+				Блог
+			</span>
+			<span class="news-card__tag tag">
+				Саженцы
+			</span>
+			<span class="news-card__tag tag">
+				Новости
+			</span>
+			<div class="news-card__date">
+				26&nbsp;февраля
+			</div>
+		</div>
 
-	<footer>
+	</div>
+</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#" class="news-card">
+	<div class="news-card__content">
+		<div class="news-card__img img-wrapper">
+			<img src="img/blocks/news/news2.jpg" alt="">
+		</div>
+		<h3 class="news-card__title">
+			Фейхоа Никитская Ароматная -15ºC Pineapple Guava
+		</h3>
+	</div>
+	<div class="news-card__footer">
+		<div class="news-card__tags">
+			<span class="news-card__tag tag">
+				Блог
+			</span>
+			<span class="news-card__tag tag">
+				Саженцы
+			</span>
+			<span class="news-card__tag tag">
+				Новости
+			</span>
+			<div class="news-card__date">
+				26&nbsp;февраля
+			</div>
+		</div>
 
+	</div>
+</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#" class="news-card">
+	<div class="news-card__content">
+		<div class="news-card__img img-wrapper">
+			<img src="img/blocks/news/news3.jpg" alt="">
+		</div>
+		<h3 class="news-card__title">
+			Формирование чаши Павловнии Томентоса
+		</h3>
+	</div>
+	<div class="news-card__footer">
+		<div class="news-card__tags">
+			<span class="news-card__tag tag">
+				Блог
+			</span>
+			<span class="news-card__tag tag">
+				Саженцы
+			</span>
+			<span class="news-card__tag tag">
+				Новости
+			</span>
+			<div class="news-card__date">
+				26&nbsp;февраля
+			</div>
+		</div>
+
+	</div>
+</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#" class="news-card">
+	<div class="news-card__content">
+		<div class="news-card__img img-wrapper">
+			<img src="img/blocks/news/news1.jpg" alt="">
+		</div>
+		<h3 class="news-card__title">
+			Формирование чаши Павловнии Томентоса
+		</h3>
+	</div>
+	<div class="news-card__footer">
+		<div class="news-card__tags">
+			<span class="news-card__tag tag">
+				Блог
+			</span>
+			<span class="news-card__tag tag">
+				Саженцы
+			</span>
+			<span class="news-card__tag tag">
+				Новости
+			</span>
+			<div class="news-card__date">
+				26&nbsp;февраля
+			</div>
+		</div>
+
+	</div>
+</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#" class="news-card">
+	<div class="news-card__content">
+		<div class="news-card__img img-wrapper">
+			<img src="img/blocks/news/news2.jpg" alt="">
+		</div>
+		<h3 class="news-card__title">
+			Павловнии Томентоса
+		</h3>
+	</div>
+	<div class="news-card__footer">
+		<div class="news-card__tags">
+			<span class="news-card__tag tag">
+				Блог
+			</span>
+			<span class="news-card__tag tag">
+				Саженцы
+			</span>
+			<span class="news-card__tag tag">
+				Новости
+			</span>
+			<div class="news-card__date">
+				26&nbsp;февраля
+			</div>
+		</div>
+
+	</div>
+</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<section class="map">
+	<div class="container">
+		<div class="map__content">
+			<h2 class="map__title h2">
+				Paulownia SEO Text, Trees and Timber Investments
+			</h2>
+			<div class="map__texts">
+				<p class="map_text">
+					Como las hojas son grandes y largas, su copa es globosa y extensa proporciona una excelente sombra
+					para su jardín. Es
+					resistente al frío y no requiere suelos muy ricos.
+				</p>
+				<p class="map_text">
+					iPaulownia is at the centre of an exciting paulownia production and sustainable timber investment
+					project throughout
+					Europe.
+				</p>
+			</div>
+		</div>
+		<div class="map__map img-wrapper">
+			<img src="img/blocks/map/map.jpg" alt="">
+		</div>
+	</div>
+</section>
+<footer class="footer">
+	<div class="container">
+		<a href="#" class="footer__logo">
+			<img src="img/footer/logo_footer.png" alt="Paulownia.pro">
+		</a>
+		<div class="footer__content">
+			<div class="footer__services">
+				<h4 class="footer__title">
+					Услуги Paulownia Professional®
+				</h4>
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a href="#">
+							Продажа саженцев и деревьев павловнии
+						</a>
+					</li>
+					<li class="footer__item">
+						<a href="#">
+							Купля/Продажа древесины
+						</a>
+					</li>
+					<li class="footer__item">
+						<a href="#">
+							Анализ и персональное проектирование плантаций
+						</a>
+					</li>
+					<li class="footer__item">
+						<a href="#">
+							Консультация на протяжении выращивания
+						</a>
+					</li>
+					<li class="footer__item">
+						<a href="#">
+							Выкупаем плантации павловнии
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__info">
+				<div class="footer__info-header">
+					<div class="footer__info-clients">
+						<h4 class="footer__title">
+							Клиентам:
+						</h4>
+						<ul class="footer__list">
+							<li class="footer__item">
+								<a href="#">
+									Условия покупки
+								</a>
+							</li>
+							<li class="footer__item">
+								<a href="#">
+									FAQ Магазин
+								</a>
+							</li>
+							<li class="footer__item">
+								<a href="#">
+									FAQ Уход за саженцами
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__info-address">
+						<h4 class="footer__title">
+							Адрес:
+						</h4>
+						<address class="footer__address">
+							<p>
+								Camino Estanca S/N
+								Apartado № 50
+							</p>
+							<p>
+								44600 Alcañiz (Teruel)
+							</p>
+							<p>
+								España
+							</p>
+						</address>
+					</div>
+				</div>
+				<div class="footer__info-footer">
+					<span class="footer__info-payment">
+						<img src="img/footer/payment/mastercard.svg" alt="">
+					</span>
+					<span class="footer__info-payment">
+						<img src="img/footer/payment/visa.svg" alt="">
+					</span>
+					<span class="footer__info-payment">
+						<img src="img/footer/payment/paypal.svg" alt="">
+					</span>
+					<span class="footer__info-payment">
+						<img src="img/footer/payment/aexpress.svg" alt="">
+					</span>
+					<span class="footer__info-payment">
+						<img src="img/footer/payment/bank.svg" alt="">
+					</span>
+					<span class="footer__info-payment">
+						<img src="img/footer/payment/bizum.png" alt="">
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="footer__connect">
+			<div class="footer__social">
+				<a href="#" class="footer__icon">
+					<svg class="svg">
+						<use xlink:href="img/icons/icons.svg#youtube"></use>
+					</svg>
+				</a>
+				<a href="#" class="footer__icon">
+					<svg class="svg">
+						<use xlink:href="img/icons/icons.svg#fb"></use>
+					</svg>
+				</a>
+				<a href="#" class="footer__icon">
+					<svg class="svg">
+						<use xlink:href="img/icons/icons.svg#instagram"></use>
+					</svg>
+				</a>
+			</div>
+			<div class="footer__contacts">
+				<div class="footer__email">
+					<a href="mailto:info@paulownia.pro" class="footer__contacts-link">
+						info@paulownia.pro
+					</a>
+					<p class="footer__contacts-text footer__contacts-text_status">
+						Online
+					</p>
+				</div>
+				<div class="footer__phone">
+					<a href="tel:+34 642 787 555" class="footer__contacts-link">
+						+34 642 787 555
+					</a>
+					<p class="footer__contacts-text">
+						Пн-Пт: 9:00-18:00
+					</p>
+				</div>
+				<div class="footer__button-wrapp">
+					<a href="#" class="footer__button btn">
+						Напишите нам
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer__add">
+			<div class="footer__rules">
+				<p class="footer__copyright">
+					Copyright © by Paulownia.pro® 2022
+				</p>
+				<a href="#" class="footer__polycy-link">
+					Политика конфиденциальности
+				</a>
+			</div>
+			<a href="#" class="footer__sitemap-link">
+				Карта сайта
+			</a>
+		</div>
+	</div>
 </footer>
 <script src="files/jquery/jquery-3.6.0.min.js"></script>
+<script src="files/jquery/jquery-ui.min.js"></script>
+<script src="files/jquery/jquery.ui.touch-punch.min.js"></script>
 <script src="js/app.min.js"></script>
+	</div>
 </body>
 
 </html>
